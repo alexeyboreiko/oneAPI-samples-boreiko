@@ -43,7 +43,7 @@
                     "cd build",
                     "cmake ..",
                     "cmake --build . ",
-                    "./ospTutorialCpp"
+                    "export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH} && ./ospTutorialCpp"
                  ]
                  }
         ]
