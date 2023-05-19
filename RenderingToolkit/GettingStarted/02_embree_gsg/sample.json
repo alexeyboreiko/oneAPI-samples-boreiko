@@ -70,7 +70,7 @@
                     "cmake --build . ",
 		    "cmake --install .",
 		    "cd ../bin",
-                    "./minimal"
+                    "export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH} && ./minimal"
                  ]
                  }
         ]
