@@ -71,7 +71,7 @@
                     "cmake --build .",
 		    "cmake --install .",
 		    "cd ../bin",
-                    "./rkRayTracer"
+                    "export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH} && ./rkRayTracer"
                  ]
                  }
         ]
