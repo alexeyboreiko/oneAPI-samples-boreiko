@@ -43,7 +43,7 @@
                     "cd build",
                     "cmake ..",
                     "cmake --build . ",
-                    "export DYLD_LIBRARY_PATH=${DYLD_LIBRARY_PATH} && ./ospTutorialCpp"
+                    "source /opt/intel/oneapi/setvars.sh --force && ./ospTutorialCpp"
                  ]
                  }
         ]
